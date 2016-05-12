@@ -8,6 +8,7 @@ public class Myarray{
     int length;
     public int[] myarray;
     public int[] sortarray;
+    private final int range=10000;
     
     // if no array are given, randomly generate one.
     Myarray() {
@@ -16,15 +17,21 @@ public class Myarray{
         System.out.println("length "+length);
         myarray = new int[n];   
         for ( int i =0 ; i < n ; i++ ){
-            myarray[i] = (int)(Math.random()*100);
+            myarray[i] = (int)(Math.random()*range);
         }
         System.out.println(Arrays.toString(myarray));
         System.out.println("Construct: "+myarray.length);
     }
+    // or, generate a string with given number of items
+    Myarray(int number){
+    	myarray = new int[number];
+        for ( int i =0 ; i < number ; i++ ){
+            myarray[i] = (int)(Math.random()*range);
+        }
+    }
     // or, use the user's array
     Myarray(int[] newarray){
         myarray = Arrays.copyOf(newarray, newarray.length);
-        System.out.println(Arrays.toString(myarray));
     }
 
     void printOld(){
@@ -35,8 +42,8 @@ public class Myarray{
         System.out.println("Sort Array:"+Arrays.toString(sortarray));
     }
 
-//  int[] insertionSort(){
-    void insertionSort(){
+    int[] insertionSort(){
+//    void insertionSort(){
         System.out.println("lenght of array: "+myarray.length);
         if  (myarray.length > 1){
             int key;
@@ -50,8 +57,10 @@ public class Myarray{
                     j = j - 1;
                 }
                 sortarray[j+1] = key;
-            }   
+            }
+            return sortarray;
         }
+        return myarray;
     }
     
     
