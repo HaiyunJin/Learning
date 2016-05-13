@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 
 public class Myarray{
-    // Length of the array
-    int length;
+	// Length of the array
+    public int length;
     public int[] myarray;
     public int[] sortarray;
     private final int range=10000;
@@ -25,13 +25,15 @@ public class Myarray{
     // or, generate a string with given number of items
     Myarray(int number){
     	myarray = new int[number];
+    	length = number;
         for ( int i =0 ; i < number ; i++ ){
             myarray[i] = (int)(Math.random()*range);
         }
     }
     // or, use the user's array
     Myarray(int[] newarray){
-        myarray = Arrays.copyOf(newarray, newarray.length);
+    	length = newarray.length;
+        myarray = Arrays.copyOf(newarray, length);
     }
 
     void printOld(){
@@ -41,9 +43,22 @@ public class Myarray{
     void printSorted(){
         System.out.println("Sort Array:"+Arrays.toString(sortarray));
     }
+    
+    
+    int searhv(int v){
+    	for (int i = 0 ; i < length; i++){
+    		if (myarray[i] == v){
+    			return i;
+    		}
+    	}
+    	return  null;
+//    	return 100;
+    }
+    
+    
 
     int[] insertionSort(){
-//    void insertionSort(){
+//    void insertionSort()
         System.out.println("lenght of array: "+myarray.length);
         if  (myarray.length > 1){
             int key;
@@ -52,7 +67,8 @@ public class Myarray{
             for (int i = 1; i < sortarray.length; i++) {
                 key = sortarray[i];
                 j = i - 1;
-                while (j>=0 && sortarray[j] > key ){
+//                while (j>=0 && sortarray[j] > key ) // increasing
+                while (j>=0 && sortarray[j] < key ){	//decreasing
                     sortarray[j+1] = sortarray[j];
                     j = j - 1;
                 }
@@ -62,7 +78,7 @@ public class Myarray{
         }
         return myarray;
     }
-    
-    
-    
+
 }
+    
+  

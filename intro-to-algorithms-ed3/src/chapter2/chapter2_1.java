@@ -10,16 +10,19 @@ public class chapter2_1 {
         public static void main (String[] args) {
 
 //          Myarray myarray = new Myarray();
-//          int[] array = new int[]{77, 32, 2, 26, 22, 21, 87, 45, 91, 30, 92, 42};
-//          Myarray myarray = new Myarray(array);
-
-        	Myarray myarray = new Myarray(100000);
+          int[] array = new int[]{77, 32, 2, 26, 22, 21, 87, 45, 91, 30, 92, 42};        
+          Myarray myarray = new Myarray(array);
+          //myarray myarray = new Myarray(10);
+        	
 //            myarray.printOld();
             
         	long t0 = System.currentTimeMillis();
             int[] insertsort=myarray.insertionSort();
-//            printintarray("Insetion sort: ", insertsort);
+            printintarray("Insetion sort: ", insertsort);
             System.out.println(System.currentTimeMillis()-t0);
+            
+            int result=myarray.searhv(77);
+            System.out.println(result);
             
             
             
