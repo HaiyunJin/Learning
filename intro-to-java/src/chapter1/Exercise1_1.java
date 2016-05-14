@@ -11,11 +11,21 @@ public class Exercise1_1 {
 		
 		// Exercise 1.3
 		System.out.println(a);
-		//Exercise 1.4
+		// Exercise 1.4
+		System.out.println("    a  a^2  a^3");
 		for (int i = 1; i <=4;i++){
-			System.out.printf("%5d%5d%5d\n", i,i^2,i^3);			
+			System.out.printf("%5d%5d%5d%n", i, (int) Math.pow(i, 2), (int) Math.pow(i, 3));			
 		}
-		System.out.println(b);
+		// Exercise 1.7
+		int n = 100000000;
+		double result = 0;
+		for (int i = 0 ; i <= n ; i++){
+			result +=  Math.pow(-1, i)*1/(2*((double) i )+1.0) ;
+		}
+		result*=4;
+		System.out.print(result);
+
+		
 
 	}
 }

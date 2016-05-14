@@ -51,7 +51,7 @@ public class Myarray{
     			return i;
     		}
     	}
-    	return  null;
+    	return  100000;
 //    	return 100;
     }
     
