@@ -93,7 +93,7 @@ public class Chapter2{
 				minutes +" minutes and " + remainingSeconds + " seconds" );
 	}
 	
-	// list 2.3 comput average
+	// list 2.3 compute average
 	public static void computeAverage(){
 		//scanner
 		Scanner input = new Scanner(System.in);
