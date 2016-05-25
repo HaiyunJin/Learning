@@ -16,3 +16,14 @@ double[] price prices = (double[]) data.clone()
 ## 2016/05/18 22:30 CDT
 Finish ppt until chapter 8.
 
+
+## 2016/05/18 23:01 CDT
+Finish ppt until chapter 9.
+
+## 2016/05/18 23:09 CDT
+Finish ppt until chapter 9a.
+
+## 2016/05/18 23:24 CDT
+Finish ppt until chapter 10.
+
+
