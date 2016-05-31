@@ -26,4 +26,6 @@ Finish ppt until chapter 9a.
 ## 2016/05/18 23:24 CDT
 Finish ppt until chapter 10.
 
+## 2016/05/31 23:05 GMT+8
+Finish ppt until chapter 11.
 
