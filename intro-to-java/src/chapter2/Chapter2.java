@@ -12,7 +12,7 @@ public class Chapter2{
 		// list 2.2
 		//computeinput();
 		// list 2.3 aver
-		//computeAverage();
+		computeAverage();
 		// list 2.4 convert seconds
 		//displayTime();
 		// list 2.5 fahrenheitToCelsius
@@ -22,7 +22,7 @@ public class Chapter2{
 		// list 2.8 compute loan
 		//computeLoan();
 		// list 2.9
-		displayUnicode();
+		//displayUnicode();
 	}
 	
 	// list 2.9
