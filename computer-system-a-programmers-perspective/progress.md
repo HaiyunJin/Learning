@@ -9,4 +9,6 @@ Finish Chapter 2.2
 Finish Chapter 2.3
 Skip the rest of Chapter 2 for now
 
+2016/08/13 01:55 CDT
+Finish Chapter 3.1-5.6
 
