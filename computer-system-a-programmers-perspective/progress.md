@@ -15,5 +15,17 @@ Finish Chapter 3.1-3.6
 2016/08/29 17:25 CDT
 Finish Chapter 3.7
 
+2016/09/02 14:53 CDT
+Finish Chapter 3.8
+
+2016/09/05 00:59 CDT
+Finish Chapter 3.9,3.10,3.12
+
+2016/09/05 23:46 CDT
+Finish Chapter 6.1,6.2,6.3,6.4.1
+
+2016/09/07 17:17 CDT
+Finish Chapter 6.4.2-6.4.7
+
 
 
