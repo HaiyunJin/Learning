@@ -30,5 +30,10 @@ Finish Chapter 6.4.2-6.4.7
 2016/09/10 00:14 CDT
 Finish Chapter 6.5, 9.1,9.2,9.9
 
+2016/09/12 14:18 CDT
+Finish Chapter 9.3-9.6, 8.1
+
+2016/09/13 9:18 CDT
+Finish Chapter 8.1 8.2.4-8.2.5 8.5.1-8.5.3
 
 
